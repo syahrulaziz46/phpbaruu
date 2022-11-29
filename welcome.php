@@ -3,9 +3,9 @@
         Welcome <?php echo $_POST["nama"];?><br>
         Your Email Addres is: <?php echo $_POST["email"];
 
-    $servername="ec2-18-209-78-11.compute-1.amazonaws.com";
-    $username="pmtturmacknyzs";
-    $password="fe6183016e31edbc703a9a849f28049468a03b925aa7be5dbff6bc1e223f1fbd";
+    $servername="";
+    $username="";
+    $password="";
     $dbname="mydb";
     $nama=$_POST["nama"];
     $email=$_POST["email"];
